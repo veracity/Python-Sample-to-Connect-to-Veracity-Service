@@ -20,7 +20,7 @@ import sys
 from msal import ConfidentialClientApplication
 
 # Find the config file
-config_file = "C:\\Users\\johko\OneDrive - DNV GL\\Innogy\\Python\\app\\config.json"
+config_file = ".\config.json"
 
 # If there are arguments given to this script, we'll use the first as path to the config file
 if len(sys.argv) > 1:
