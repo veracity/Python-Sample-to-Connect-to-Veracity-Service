@@ -1,13 +1,12 @@
 {
-  "tenant": "TenantName",
-  "client_id": "Insert your Client Id",
-  "client_secret": "Your Client Secret goes here",
-  "scope": ["Add the Scope"],
-  "timeSeriesApiEndpoint": "https://api-test.veracity.com/veracity/timeseries/api/v1/",
-  "timsSeriesApiSubscriptionKey": "Insert your subscription key",
-  "assetApiEndpoint": "https://api-test.veracity.com/veracity/assets/api/v1/",
-  "assetApiSubscriptionKey": "Insert your subscription key",
-  
-  "assetId": "1d4e3aa4-ec7e-4e92-a946-3b89f1e2b995", // example assetId for the queries
-  "signalIds": ["17f70604-4d89-4d13-88d8-ad68f5b69f6b"] // examples signalIds for thr queries
+  "client_id": "<insert your client id>",
+  "client_secret": "<insert your client secret>",
+  "apiSubscriptionKey": "<insert your api subscription key>",
+  "workSpaceId": "<insert your asset connect workSpaceId>",
+
+  "tenant": "dnvglb2cprod.onmicrosoft.com",
+  "scope": [ "https://dnvglb2cprod.onmicrosoft.com/29a8760a-d13a-41ce-998e-0a00c3d948d5/.default" ],
+
+  "assetApiEndpoint": "https://api.veracity.com/veracity/assets/api/v1/",
+  "timeSeriesApiEndpoint": "https://api.veracity.com/veracity/timeseries/api/v1/"
 }
