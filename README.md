@@ -50,12 +50,7 @@ These are the options in the config file:
 
 ## A note on security
 
-The configuration contains the client id and client secret in this
-example to keep things simple.
-
-In a real solution, you should implement a proper, secure way to
+You should implement a proper, secure way to
 store and retrieve the client secret. Avoid having actual authentication
-information in a file in a repro.
+information in a file in a repro.If you are using Azure App service, Azure keyvault is a nice place to hold these information. 
 
-Instead, provide the client secret as an environment variable or
-in a secure key vault.
